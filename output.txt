@@ -1,0 +1,81 @@
+Testing stations... PASSED!
+Testing connections... PASSED!
+
+----------------------------------------------------------------------
+Start out at Ajax Rapids.
+
+Get on the Booch Line heading towards UML Walk.
+
+When you get to UML Walk, get off the Booch Line.
+
+Switch over to the Wirfs-Brock Line, heading towards The Tikibean Lounge.
+
+Continue past The Tikibean Lounge...
+
+Continue past Head First Lounge...
+
+Continue past Objectville Diner...
+
+When you get to Servlet Springs, get off the Wirfs-Brock Line.
+
+Switch over to the Jacobson Line, heading towards Mighty Gumball, Inc..
+
+Continue past Mighty Gumball, Inc....
+
+Get off at JavaRanch and enjoy yourself!
+
+----------------------------------------------------------------------
+Start out at XHTML Expressway.
+
+Get on the Wirfs-Brock Line heading towards LSP Lane.
+
+Continue past LSP Lane...
+
+Continue past Algebra Avenue...
+
+When you get to DRY Drive, get off the Wirfs-Brock Line.
+
+Switch over to the Meyer Line, heading towards Web Design Way.
+
+When you get to Web Design Way, get off the Meyer Line.
+
+Switch over to the Wirfs-Brock Line, heading towards Boards 'R' Us.
+
+Continue past Boards 'R' Us...
+
+When you get to EJB Estates, get off the Wirfs-Brock Line.
+
+Switch over to the Liskov Line, heading towards Design Patterns Plaza.
+
+Continue past Design Patterns Plaza...
+
+Get off at JSP Junction and enjoy yourself!
+
+----------------------------------------------------------------------
+Start out at Mighty Gumball, Inc..
+
+Get on the Jacobson Line heading towards Servlet Springs.
+
+When you get to Servlet Springs, get off the Jacobson Line.
+
+Switch over to the Wirfs-Brock Line, heading towards Objectville Diner.
+
+Continue past Objectville Diner...
+
+When you get to Head First Lounge, get off the Wirfs-Brock Line.
+
+Switch over to the Gamma Line, heading towards OOA&D Oval.
+
+When you get to OOA&D Oval, get off the Gamma Line.
+
+Switch over to the Meyer Line, heading towards CSS Center.
+
+Continue past CSS Center...
+
+When you get to Head First Theater, get off the Meyer Line.
+
+Switch over to the Rumbaugh Line, heading towards Choc-O-Holic, Inc..
+
+Get off at Choc-O-Holic, Inc. and enjoy yourself!
+
+----------------------------------------------------------------------
