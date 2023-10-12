@@ -17,6 +17,8 @@ class Subway(object):
            we add it to our collection of station objects."""
         if not self.has_station(name):
             self.stations.append(Station(name))
+            return True
+        return False
 
     def has_station(self, name):
         """Returns True if we have a station with the specified name."""
@@ -38,9 +40,11 @@ class Subway(object):
             self.connections.append(connection2)
             self.add_to_network(Station(name1), Station(name2))
             self.add_to_network(Station(name2), Station(name1))
+            return True
+        return False
 
     def add_to_network(self, station1, station2):
-        if self.network.has_key(station1):
+        if self.network.__contains__(station1):
             stations = self.network[station1]
             if not station2 in stations:
                 stations.append(station2)
@@ -49,7 +53,7 @@ class Subway(object):
 
     def get_directions(self, name1, name2):
         if not self.has_station(name1) or not self.has_station(name2):
-            return []
+            return False
         station1  = Station(name1)
         station2  = Station(name2)
         route     = []

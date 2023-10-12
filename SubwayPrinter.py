@@ -10,11 +10,10 @@ class SubwayPrinter(object):
         current_line  = connection.get_line()
         previous_line = current_line
 
-        print "Start out at %s." % (station1.get_name())
-        print
-        print "Get on the %s heading towards %s." % \
-              (current_line, station2.get_name())
-        print
+        print(f"Start out at {station1.get_name()}")
+        print()
+        print(f"Get on the %s heading towards {current_line, station2.get_name()}.")
+        print()
 
         for index in range(1, len(route)):
             connection   = route[index]
@@ -22,16 +21,14 @@ class SubwayPrinter(object):
             station1     = connection.get_station1()
             station2     = connection.get_station2()
             if current_line == previous_line:
-                print "Continue past %s..." % (station1.get_name())
+                print(f"Continue past {station1.get_name()}...")
                 print
             else:
-                print "When you get to %s, get off the %s." % \
-                      (station1.get_name(), previous_line)
-                print
-                print "Switch over to the %s, heading towards %s." % \
-                      (current_line, station2.get_name())
-                print
+                print(f"When you get to {station1.get_name()}, get off the {previous_line}.")
+                print()
+                print(f"Switch over to the {current_line}, heading towards {station2.get_name()}.")
+                print()
                 previous_line = current_line
 
-        print "Get off at %s and enjoy yourself!" % (station2.get_name())
-        print
+        print(f"Get off at {station2.get_name()} and enjoy yourself!")
+        print()

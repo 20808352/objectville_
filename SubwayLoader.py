@@ -10,7 +10,7 @@ class SubwayLoader(object):
         return self.subway
 
     def loadFromFile(self, name):
-        data = file(name, "U")
+        data = open(name, "U")
         self.loadStations(data)
         line = data.readline().strip()
         while line != "":
@@ -37,26 +37,26 @@ if __name__ == '__main__':
     loader = SubwayLoader()
     loader.loadFromFile("ObjectvilleSubway.txt")
     subway = loader.get_subway()
-    print "Testing stations...",
+    print("Testing stations...")
     if subway.has_station("DRY Drive") and \
        subway.has_station("Servlet Springs") and \
        subway.has_station("Boards 'R' Us"):
-        print "PASSED!"
+        print("PASSED!")
     else:
-        print "FAILED!"
-    print "Testing connections...",
+        print("FAILED!")
+    print("Testing connections...")
     if subway.has_connection("DRY Drive","PMP Place","Wirfs-Brock Line")   and \
        subway.has_connection("GoF Gardens","JSP Junction","Jacobson Line") and \
        subway.has_connection("LSP Lane","Head First Labs","Booch Line"):
-        print "PASSED!"
+        print("PASSED!")
     else:
-        print "FAILED!"
+        print("FAILED!")
     print
     p = SubwayPrinter()
-    print "-" * 70
+    print("-" * 70)
     p.print_directions(subway.get_directions("AJAX Rapids", "JavaRanch"))
-    print "-" * 70
+    print("-" * 70)
     p.print_directions(subway.get_directions("XHTML Expressway","JSP Junction"))
-    print "-" * 70
+    print("-" * 70)
     p.print_directions(subway.get_directions("Mighty Gumball, Inc.", "Choc-O-Holic, Inc."))
-    print "-" * 70
+    print("-" * 70)
